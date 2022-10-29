@@ -5,3 +5,61 @@
 }
 
 /*# sourceMappingURL=style.css.map */
+/*истории о том что и как мы утилизируем*/
+.advertising{
+  width: 100vw;
+  border: 1px solid black;
+  margin: 0%;
+  background: #EBF3F5;
+  display:grid;
+  grid-template-areas: "advertising__left advertising__right";
+  grid-template-columns:40% 40%;
+  grid-template-rows: auto;
+  gap: 0rem;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding:120px;
+}
+.advertising__left{
+  grid-area:advertising__left;
+  border: 1px solid rgb(131, 49, 49);
+}
+.advertising__header{font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 1.3;  
+  letter-spacing: 0.66px;
+    color: #141414;
+    padding-right: 182px;
+  }
+.advertising__text{ font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 1.6;
+color: #555555;
+padding-right: 95px;}
+.advertising__button{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 1.56px;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: #5C8692;
+border: 2px solid #5C8692;
+text-decoration: none;
+padding: 19px 32px;
+}
+.advertising__right{
+  grid-area:advertising__right;
+  border: 1px solid rgb(53, 23, 143);
+}
+.advertising__img{
+  width: 100%;
+}
+
