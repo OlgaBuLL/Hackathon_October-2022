@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Продли жизнь твоей ёлки</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="shortcut icon" href="./assets/images/christmas-tree.png" type="image/png" />
 </head>
+
 
 <!-- Наши услуги -->
 <section class="sectionServices">
@@ -76,7 +78,214 @@
     </div>
 </section>
 
+<body class="body">
+    <header class="header">
+        <div class="header-container container">
+            <img class="header-container__logo" src="./assets/images/pngwing.png" alt="logo">
+            <ul class="header-container__menu">
+                <li class="header-container__menu-item"><a href="#" class="header__link">ГЛАВНАЯ</a></li>
+                <li class="header-container__menu-item"><a href="#" class="header__link">НАШИ УСЛУГИ</a></li>
+                <li class="header-container__menu-item"><a href="#" class="header__link">ТАРИФЫ</a></li>
+                <li class="header-container__menu-item"><a href="#" class="header__link">ОФОРМИТЬ ЗАКАЗ</a></li>
+            </ul>
+        </div>
+    </header>
+
+
 <script src="./assets/scripts/hackathon.js"></script>
+
+
+
+
+    <div class="prices">
+        <div class="prices__heading">
+            <p>Наши услуги</p>
+            <h2>Сделайте ваш праздник комфортным и экологичным</h2>
+        </div>
+
+        <div class="prices__live">
+            <img class="prices__live_img" src="assets/images/tree.jpg">
+            <div class="prices__live_services">
+                <details>Мы продаём только те варианты деревьев, которые теоретически можно укоренить. Все они
+                    предварительно обработаны Корневином и продаются вместе с контейнером и песком.
+                    <summary>Живая ёлка от 3000р.</summary>
+                </details>
+                <details>Такое деревце будет вас радовать все праздники, а потом мы заберём его обратно в оранжерею.
+                    <summary>Живая ёлка в горшке от 4000р.
+                    </summary>
+                </details>
+                <details>Специалист оценит состояние дерева и порекомендует дальнейшие шаги.
+                    <summary>Консультация флориста от 1500р.</summary>
+                </details>
+                <details>В зависимости от ваших целей, мы можем продлить жизнь срубленному дереву, поспособствовать
+                    появлению новых веточек или корней.
+                    <summary>Удобрения для ёлки от 1000р.</summary>
+                </details>
+                <details>Если ваша ёлка не даёт корни, то её жизнь может продлиться через укоренение новых веточек.
+                    <summary>Набор для укоренения черенков от 2000р.
+                    </summary>
+                </details>
+                <details>Если в мае елка зеленая, то корни есть. Для её высаживания необходим дренаж, мицеллий и
+                    удобрения. Также поможем с подбором места для высаживания.
+                    <summary>Набор для укоренения дерева от 3000р.</summary>
+                </details>
+                <details>Если ёлочка высохла - не огорчайтесь, это случается. Мы заберём её и правильно утилизируем.
+                    <summary>Утилизация живой ёлки и натуральных ёлочных игрушек от 2000р. </summary>
+                </details>
+                <button class="prices__button">Свяжитесь с нами</button>
+            </div>
+        </div>
+
+        <div class="prices__plastic">
+            <div class="prices__plastic_services">
+                <details>Расскажем и покажем как сделать красивые, ароматные и съедобные игрушки без вреда для
+                    окружающей
+                    среды.
+                    <summary>Мастер-класс по изготовлению ёлочных игрушек из натуральных материалов от 3000р.
+                    </summary>
+                </details>
+                <details>Старые семейные драгоценности не должны пылиться в шкафу! Поможем вернуть им жизнь и
+                    красоту.
+                    </summary>
+                    <summary>Реставрация ёлочных игрушек и гирлянд от 1000р.
+                </details>
+                <details>Грамотно утилизируем искусственную ёлку в зависимости от её материала.
+                    <summary>Утилизация искусственной ёлки от 2000р.</summary>
+                </details>
+                <details>Диван в блёстках и мишура на люстре? Ничего страшного, мы это легко устраним.
+                    <summary>Уборка после праздника от 3000р.</summary>
+                </details>
+                <details>Отсортируем и сдадим на переработку всё ненужное.
+                    <summary>Утилизация пластиковых ёлочных игрушек и гирлянд от 500р. за кг.</summary>
+                </details>
+                <button class="prices__button">Свяжитесь с нами</button>
+            </div>
+            <img class="prices__plastic_img" src="assets/images/toys.jpg">
+        </div>
+
+    </div>
+
+    <form>
+        <h2 class="form_title">Сделайте заказ</h2>
+        <div class="form">
+            <div class="form_column1">
+                <h3 class="form_subtitle">Услуги к новому году:</h3>
+
+                <p>Выберите новогоднее дерево по душе:</p>
+                <select name="tree" class="select-css">
+                    <option value="0">Не выбрано</option>
+                    <option value="1">Голубая ель</option>
+                    <option value="2">Сосна</option>
+                    <option value="3">Пихта</option>
+                </select>
+
+                <br>
+                <p>Выберите высоту своего дерева:</p>
+                <select name="tree_height" class="select-css">
+                    <option value="0">Не выбрано</option>
+                    <option value="1">1,5 м</option>
+                    <option value="2">2 м</option>
+                    <option value="3">3 м</option>
+                </select>
+
+                <br>
+                <p>Требуется доставка?</p>
+                <input type="checkbox" value="delivery" class="checkbox">
+
+
+                <br>
+                <p>Вы хотите, чтобы ваше дерево доставили в горшке <br> (для большего срока службы и возможности
+                    <br> в
+                    будущем пересадить его на участок)?
+                </p>
+                <input type="checkbox" value="tree_pot" class="checkbox">
+
+                <br>
+                <p>Вы можете заказать экологичные украшения к вашей елке <br>
+                    (деревянные снежинки, ангелы и звезды):</p>
+                <label><input type="radio" name="ornaments" id="20p" />20 шт.</label><br>
+                <label><input type="radio" name="ornaments" id="50p" />50 шт.</label><br>
+                <label><input type="radio" name="ornaments" id="100p" />100 шт.</label><br>
+                <label><input type="radio" name="ornaments" id="no_ornaments" />Не нужно</label><br>
+            </div>
+
+
+            <div class="form_column2">
+                <h3 class="form_subtitle">Услуги после праздников:</h3>
+
+                <p>Утилизация живой ели:</p>
+                <label><input type="radio" name="export_height" id="1,5e" />1,5 м</label><br>
+                <label><input type="radio" name="export_height" id="2e" />2 м</label><br>
+                <label><input type="radio" name="export_height" id="3e" />3 м</label><br>
+                <label><input type="radio" name="export_height" id="no_export" />Не нужна</label><br>
+
+                <br>
+                <p>Утилизация пластикового мусора после новогодних праздников:</p>
+                <input type="checkbox" value="plastic_export" class="checkbox">
+
+                <br>
+                <p>Реставрация гирлянд и елочных игрушек:</p>
+                <input type="checkbox" value="restoration" class="checkbox">
+
+                <br>
+                <p>Вы хотите, чтобы мы помогли высадить вашу елку на участок?</p>
+                <input type="checkbox" value="tree_out" class="checkbox">
+
+            </div>
+        </div>
+
+        <div class="block_result">
+            <br><button class="form_button">Оформить заказ</button>
+            <div class="result"></div>
+        </div>
+    </form>
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-container container">
+            <img class="footer-container__logo" src="./assets/images/pngwing.png" alt="logo">
+
+            <div class="footer-container__contacts">Наши контакты
+                <div>
+
+                    <a class="footer-container__contacts-item" href="tel:+74957873422">+74957873422</a>
+
+
+                    <a class="footer-container__contacts-item" href="mailto:admin@hipolink.net">
+                        admin@hipolink.net</a>
+
+                </div>
+                <div>
+
+                    <a href="#" class="footer-container__contacts-item"><img class="footer-container__social-logo"
+                            src="./assets/images/instagram_logo.svg">
+                    </a>
+
+
+                    <a href="#" class="footer-container__contacts-item"><img class="footer-container__social-logo"
+                            src="./assets/images/telegram_logo.svg"></a>
+
+                </div>
+
+            </div>
+            <ul class="footer-container__menu">
+                <li class="footer-container__menu-item"><a href="#" class="header__link">Главная</a></li>
+                <li class="footer-container__menu-item"><a href="#" class="header__link">Наши услуги</a></li>
+                <li class="footer-container__menu-item"><a href="#" class="header__link">Тарифы</a></li>
+                <li class="footer-container__menu-item"><a href="#" class="header__link">Оформить заказ</a></li>
+            </ul>
+        </div>
+        <hr class="footer__line">
+    </footer>
+
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <script src="./assets/scripts/hackathon.js"></script>
+
+</body>
 
 
 </html>

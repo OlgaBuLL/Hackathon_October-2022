@@ -1,8 +1,9 @@
-.header {
-  /* color: green;
-  background: lightgreen;
-  height: 40px; */
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 6 | @import "./title.sass"
+ *   |         ^^^^^^^^^^^^^^
+ *   '
+ *   assets\sass\style.sass 6:9  root stylesheet */
 
 /*# sourceMappingURL=style.css.map */
 
@@ -176,3 +177,15 @@
   }
 
 }
+=======
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 6 \2502  @import \"./title.sass\"\d\a   \2502          ^^^^^^^^^^^^^^\a   \2575 \a   assets\\sass\\style.sass 6:9  root stylesheet";
+}
+
