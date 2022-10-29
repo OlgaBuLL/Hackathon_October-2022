@@ -7,7 +7,7 @@
 /*# sourceMappingURL=style.css.map */
 
 
-.sectionPrices {
+.sectionServices {
   height: 885px;
   width: 1440px;
   display: flex;
@@ -16,7 +16,7 @@
   justify-content: center;
 }
 
-#sectionPrices__form {
+#sectionServices__form {
   display: none;
   position: fixed;
   margin: auto;
@@ -29,7 +29,7 @@
   font-size: 20px;
 }
 
-.sectionPrices__form-input {
+.sectionServices__form-input {
   width: 300px;
   height: 50px;
   border-radius: 10px;
@@ -39,11 +39,11 @@
   text-indent: 10px;
 }
 
-.sectionPrices__form-checkboxes {
+.sectionServices__form-checkboxes {
   margin-top: 20px;
 }
 
-.sectionPrices__form-button {
+.sectionServices__form-button {
   margin-top: 20px;
   width: 200px;
   height: 50px;
@@ -54,51 +54,49 @@
   font-size: 18px;
 }
 
-.sectionPrices__form-button:hover {
+.sectionServices__form-button:hover {
   background-color: #5e7151;
-
 }
 
-.sectionPrices-card {
+.sectionServices-card {
   margin-left: 30px;
   height: 550px;
 }
 
-.sectionPrices-imageRecycleSpruce {
+.sectionServices-imageRecycleSpruce {
   height: 288px;
   width: 380px;
   background-image: url('./../images/recyclespruce.jpg');
   background-size: cover;
 }
 
-.sectionPrices-imageSaveSpruce {
+.sectionServices-imageSaveSpruce {
   height: 288px;
   width: 380px;
   background-image: url('./../images/savespruce.jpg');
   background-size: cover;
-
 }
 
-.sectionPrices-imageRecyclePlastic {
+.sectionServices-imageRecyclePlastic {
   height: 288px;
   width: 380px;
   background-image: url('./../images/recycleplastic.jpg');
   background-size: cover;
 }
 
-.sectionPrices-description {
+.sectionServices-description {
   margin-left: 0px;
   margin-top: 16px;
 }
 
-.sectionPrices__description-title {
+.sectionServices__description-title {
   width: 380px;
   font-size: 26px;
   font-weight: 400;
   line-height: 36px;
 }
 
-.sectionPrices__description-about {
+.sectionServices__description-about {
   width: 370px;
   height: 92px;
   margin-top: 15px;
@@ -107,14 +105,14 @@
   line-height: 31px;
 }
 
-.sectionPrices__description-button {
+.sectionServices__description-button {
   margin-top: 15px;
   height: 57px;
   width: 157px;
   border: 1px solid #5e7151;
 }
 
-.sectionPrices__description-button:hover {
+.sectionServices__description-button:hover {
   background-color: #5e7151;
   font-weight: bolder;
 }
