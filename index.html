@@ -14,7 +14,69 @@
 
 
 
+    <form>
+        <h2>Сделайте заказ</h2>
+        <div class="form">
+            <div class="form_column1">
+                <h3>Услуги к новому году:</h3>
 
+                <p>Выберите новогоднее дерево по душе:</p>
+                <select name="tree">
+                    <option value="0">Не выбрано</option>
+                    <option value="1">Голубая ель</option>
+                    <option value="2">Сосна</option>
+                    <option value="3">Пихта</option>
+                </select>
+
+
+                <p>Выберите высоту своего дерева:</p>
+                <select name="tree_height">
+                    <option value="0">Не выбрано</option>
+                    <option value="1">1,5 м</option>
+                    <option value="2">2 м</option>
+                    <option value="3">3 м</option>
+                </select>
+
+                <p>Требуется доставка?</p>
+                <input type="checkbox" value="delivery" class="checkbox">
+
+                <p>Вы хотите, чтобы ваше дерево доставили в горшке <br> (для большего срока службы и возможности <br> в
+                    будущем пересадить его на участок)?
+                </p>
+                <input type="checkbox" value="tree_pot" class="checkbox">
+
+                <p>Вы можете заказать экологичные украшения к вашей елке <br>
+                    (деревянные снежинки, ангелы и звезды):</p>
+                <label><input type="radio" name="ornaments" id="20p" />20 шт.</label><br>
+                <label><input type="radio" name="ornaments" id="50p" />50 шт.</label><br>
+                <label><input type="radio" name="ornaments" id="100p" />100 шт.</label><br>
+                <label><input type="radio" name="ornaments" id="no_ornaments" />Не нужно</label><br>
+            </div>
+
+
+            <div class="form_column2">
+                <h3>Услуги после праздников:</h3>
+
+                <p>Утилизация живой ели:</p>
+                <label><input type="radio" name="export_height" id="1,5e" />1,5 м</label><br>
+                <label><input type="radio" name="export_height" id="2e" />2 м</label><br>
+                <label><input type="radio" name="export_height" id="3e" />3 м</label><br>
+                <label><input type="radio" name="export_height" id="no_export" />Не нужна</label><br>
+
+                <p>Утилизация пластикового мусора после новогодних праздников:</p>
+                <input type="checkbox" value="plastic_export" class="checkbox">
+
+                <p>Реставрация гирлянд и елочных игрушек:</p>
+                <input type="checkbox" value="restoration" class="checkbox">
+
+                <p>Вы хотите, чтобы мы помогли высадить вашу елку на участок?</p>
+                <input type="checkbox" value="tree_out" class="checkbox">
+
+            </div>
+        </div>
+        <br><button>Оформить заказ</button>
+        <div class="result"></div>
+    </form>
     <script src="./assets/scripts/hackathon.js"></script>
 </body>
 
