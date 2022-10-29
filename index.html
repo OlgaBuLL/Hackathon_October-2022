@@ -57,44 +57,75 @@
             <img src="assets/img-adv/Frame.png" alt="" class="advertising__img">
         </div>
     </article>
-    <div class="sectionServices-card">
-        <div class="sectionServices-imageRecycleSpruce"></div>
-        <div class="sectionServices-description">
-            <div class="sectionServices__description-title">
-                Утилизация живой ели после праздников
-            </div>
-            <div class="sectionServices__description-about">
-                Заберём вашу ель (или другое хвойное растение) на
-                переработку
-            </div>
-            <button class="sectionServices__description-button"><a href="#form">ПОДРОБНЕЕ</a></button>
+
+    <section class="sectionServices">
+        <div id="sectionServices__form">
+            <p>Мне нужна консультация по покупке/укоренению ели</p>
+            <form>
+                <div>
+                    <input type="text" placeholder="Ваше имя" class="sectionServices__form-input" id="form__name">
+                    <input type="text" placeholder="Ваш телефон" class="sectionServices__form-input" id="form__phone">
+                </div>
+                <div class="sectionServices__form-checkboxes">
+                    <div>
+                        <input type="checkbox" class="sectionServices__form-checkbox">
+                        Перезвоните мне
+                    </div>
+                    <div>
+                        <input type="checkbox" class="sectionServices__form-checkbox">
+                        Напишите мне в WhatsApp
+                    </div>
+                    <div>
+                        <input type="checkbox" class="sectionServices__form-checkbox">
+                        Напишите мне в Telegram
+                    </div>
+                </div>
+                <button class="sectionServices__form-button">Отправить</button>
+                <button class="sectionServices__form-button" onclick="closeForm()">Отмена</button>
+            </form>
         </div>
-    </div>
-    <div class="sectionServices-card">
-        <div class="sectionServices-imageSaveSpruce"></div>
-        <div class="sectionServices-description">
-            <div class="sectionServices__description-title">
-                Консультации по уходу за хвойными, укоренению, высадке
+        <div class="sectionServices-card">
+            <div class="sectionServices-imageRecycleSpruce"></div>
+            <div class="sectionServices-description">
+                <div class="sectionServices__description-title">
+                    Утилизация живой ели после праздников
+                </div>
+                <div class="sectionServices__description-about">
+                    Заберём вашу ель (или другое хвойное растение) на
+                    переработку
+                </div>
+                <button class="sectionServices__description-button"><a href="#form">ПОДРОБНЕЕ</a></button>
             </div>
-            <div class="sectionServices__description-about">
-                Помощь в выборе растения, консультация по уходу,
-                консультация по укоренению
-            </div>
-            <button class="sectionServices__description-button" onclick="openForm()">ПОДРОБНЕЕ</button>
         </div>
-    </div>
-    <div class="sectionServices-card">
-        <div class="sectionServices-imageRecyclePlastic"></div>
-        <div class="sectionServices-description">
-            <div class="sectionServices__description-title">
-                Утилизация искусственных елей, игрушек
+        <div class="sectionServices-card">
+            <div class="sectionServices-imageSaveSpruce"></div>
+            <div class="sectionServices-description">
+                <div class="sectionServices__description-title">
+                    Консультации по уходу за хвойными, укоренению, высадке
+                </div>
+                <div class="sectionServices__description-about">
+                    Помощь в выборе растения, консультация по уходу,
+                    консультация по укоренению
+                </div>
+                <button class="sectionServices__description-button" onclick="openForm()">ПОДРОБНЕЕ</button>
             </div>
-            <div class="sectionServices__description-about">
-                Утилизация и реставрация елей, гирлянд, игрушек
-            </div>
-            <button class="sectionServices__description-button"><a href="#form">ПОДРОБНЕЕ</a></button>
         </div>
-    </div>
+        <div class="sectionServices-card">
+            <div class="sectionServices-imageRecyclePlastic"></div>
+            <div class="sectionServices-description">
+                <div class="sectionServices__description-title">
+                    Утилизация искусственных елей, игрушек
+                </div>
+                <div class="sectionServices__description-about">
+                    Утилизация и реставрация елей, гирлянд, игрушек
+                </div>
+                <button class="sectionServices__description-button"><a href="#form">ПОДРОБНЕЕ</a></button>
+            </div>
+        </div>
+    </section>
+
+
+   
     <article class="advertising">
         <div class="advertising__left">
             <p class="advertising__header">Поможем укоренить елку!</p>
@@ -334,6 +365,7 @@
     </footer>
 
     <script src="./assets/scripts/hackathon.js"></script>
+    
 
 </body>
 
