@@ -1,0 +1,100 @@
+$grid-breakpoint-xs: 0;
+$grid-breakpoint-sm: 576px;
+$grid-breakpoint-md: 768px;
+$grid-breakpoint-lg: 992px;
+$grid-breakpoint-xl: 1200px;
+$grid-breakpoint-xxl: 1400px;
+
+
+
+.prices {
+
+
+    // .prices__heading
+
+    &__heading {
+        text-align: center;
+    }
+
+    // .prices__live
+
+    &__live {
+        width: 70%;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+
+        @media screen and (max-width: $grid-breakpoint-md) {
+            width: 100%;
+            display: block;
+        }
+
+        // .prices__live_img
+
+        &_img {
+            padding: 1em;
+
+            @media screen and (max-width: $grid-breakpoint-md) {
+                width: 100%;
+                padding: 0;
+
+            }
+        }
+
+        // .prices__live_services
+
+        &_services {
+            font-size: large;
+            padding: 1em;
+        }
+
+        &_services details {
+            padding: 7px;
+        }
+    }
+
+    // .prices__button
+
+    &__button {
+        background-color: #5E7151;
+        color: white;
+        padding: 20px;
+        border: inherit;
+    }
+
+    // .prices__plastic
+
+    &__plastic {
+        width: 70%;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+
+        @media screen and (max-width: $grid-breakpoint-md) {
+            width: 100%;
+            display: block;
+        }
+
+        // .prices__plastic_services
+
+        &_services {
+            font-size: large;
+            padding: 1em;
+        }
+
+        &_services details {
+            padding: 7px;
+        }
+
+        // .prices__plastic_img
+
+        &_img {
+            padding: 1em;
+
+            @media screen and (max-width: $grid-breakpoint-md) {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    }
+}
