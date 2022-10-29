@@ -9,8 +9,6 @@ function closeForm() {
     consultationForm.style.display = 'none';
 }
 
-
-=======
 const form = document.querySelector("form");
 const result = document.querySelector(".result");
 
@@ -40,15 +38,15 @@ form.addEventListener("submit", function (evt) {
     // //выбор доставки
     const delivery = document.querySelector('input[value="delivery"]');
 
-    if(delivery.checked) {
-        sum +=500;
+    if (delivery.checked) {
+        sum += 500;
     }
 
     // доставка в горшке
     const tree_pot = document.querySelector('input[value="tree_pot"]');
 
-    if(tree_pot.checked) {
-        sum +=1000;
+    if (tree_pot.checked) {
+        sum += 1000;
     }
 
     //Выбор украшений
@@ -62,13 +60,13 @@ form.addEventListener("submit", function (evt) {
 
     if (ornament1.checked) {
         sum += 1500;
-        } else if (ornament2.checked) {
+    } else if (ornament2.checked) {
         sum += 3000;
-        } else if (ornament3.checked) {
+    } else if (ornament3.checked) {
         sum += 4500;
-        } else if (ornament4.checked) {
+    } else if (ornament4.checked) {
         sum += 0;
-                }
+    }
 
     //Утилизация живой елки
 
@@ -82,35 +80,36 @@ form.addEventListener("submit", function (evt) {
 
     if (export_height1.checked) {
         sum += 500;
-        } else if (export_height2.checked) {
+    } else if (export_height2.checked) {
         sum += 700;
-        } else if (export_height3.checked) {
+    } else if (export_height3.checked) {
         sum += 1500;
-        } else if (export_height4.checked) {
-        sum += 0;}
+    } else if (export_height4.checked) {
+        sum += 0;
+    }
 
     //Утилизация пластика
 
     const plastic_export = document.querySelector('input[value="plastic_export"]');
 
-    if(plastic_export.checked) {
-        sum +=1000;
+    if (plastic_export.checked) {
+        sum += 1000;
     }
 
     //Реставрация гирлянд и елочных игрушек
 
-        const restoration = document.querySelector('input[value="restoration"]');
+    const restoration = document.querySelector('input[value="restoration"]');
 
-        if(restoration.checked) {
-            sum +=2000;
-        }
+    if (restoration.checked) {
+        sum += 2000;
+    }
 
     //Утилизация пластика
 
     const tree_out = document.querySelector('input[value="tree_out"]');
 
-    if(tree_out.checked) {
-        sum +=3000;
+    if (tree_out.checked) {
+        sum += 3000;
     }
 
     //вывод результата
