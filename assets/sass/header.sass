@@ -1,0 +1,49 @@
+.container
+.body
+    font-family: Playfair Display, sans-serif
+    font-weight: 300
+    font-style: normal
+
+.header
+    background: linear-gradient(#5E7151, white)
+    width: 100vw
+    height: 80px
+    display: flex
+    align-items: center
+    // z-index: 1
+    // position: fixed
+    // align-content: center
+   
+.header-container
+    width: 1170px
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__logo
+        max-width: 5%
+
+    &__menu-item
+        display: inline-block
+        margin-right: 60px
+        &:last-child
+            margin-right: 0px
+    &__menu-item a
+        text-decoration: none
+        color: #374230
+        &:hover
+            color: #060804
+            border-bottom: 2px solid #374230
+
+
+
+// @media screen and (min-width: 375px) 
+//     .header
+//         height: 100px
+//     .header-container
+//         justify-content: space-around
+//         &__logo
+//             max-width: 15%
+//         &__menu-item
+//             display: block
+//             margin-right: 10px

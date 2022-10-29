@@ -5,16 +5,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Продли жизнь твоей ёлки</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
-    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="shortcut icon" href="./assets/images/christmas-tree.png" type="image/png" />
     <link rel="stylesheet" href="./assets/styles/style-adv.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+
+<!-- Наши услуги -->
+<section class="sectionServices">
+    <div id="sectionServices__form">
+        <p>Мне нужна консультация по покупке/укоренению ели</p>
+        <form>
+            <div>
+                <input type="text" placeholder="Ваше имя" class="sectionServices__form-input" id="form__name">
+                <input type="text" placeholder="Ваш телефон" class="sectionServices__form-input" id="form__phone">
+            </div>
+            <div class="sectionServices__form-checkboxes">
+                <div>
+                    <input type="checkbox" class="sectionServices__form-checkbox">
+                    Перезвоните мне
+                </div>
+                <div>
+                    <input type="checkbox" class="sectionServices__form-checkbox">
+                    Напишите мне в WhatsApp
+                </div>
+                <div>
+                    <input type="checkbox" class="sectionServices__form-checkbox">
+                    Напишите мне в Telegram
+                </div>
+            </div>
+            <button class="sectionServices__form-button">Отправить</button>
+            <button class="sectionServices__form-button" onclick="closeForm()">Отмена</button>
+        </form>
+    </div>
+    <div class="sectionServices-card">
+        <div class="sectionServices-imageRecycleSpruce"></div>
+        <div class="sectionServices-description">
+            <div class="sectionServices__description-title">
+                Утилизация живой ели после праздников
+            </div>
+            <div class="sectionServices__description-about">
+                Заберём вашу ель (или другое хвойное растение) на
+                переработку
+            </div>
+            <button class="sectionServices__description-button"><a href="#form">ПОДРОБНЕЕ</a></button>
+        </div>
+    </div>
+    <div class="sectionServices-card">
+        <div class="sectionServices-imageSaveSpruce"></div>
+        <div class="sectionServices-description">
+            <div class="sectionServices__description-title">
+                Консультации по уходу за хвойными, укоренению, высадке
+            </div>
+            <div class="sectionServices__description-about">
+                Помощь в выборе растения, консультация по уходу,
+                консультация по укоренению
+            </div>
+            <button class="sectionServices__description-button" onclick="openForm()">ПОДРОБНЕЕ</button>
+        </div>
+    </div>
+    <div class="sectionServices-card">
+        <div class="sectionServices-imageRecyclePlastic"></div>
+        <div class="sectionServices-description">
+            <div class="sectionServices__description-title">
+                Утилизация искусственных елей, игрушек
+            </div>
+            <div class="sectionServices__description-about">
+                Утилизация и реставрация елей, гирлянд, игрушек
+            </div>
+            <button class="sectionServices__description-button"><a href="#form">ПОДРОБНЕЕ</a></button>
+        </div>
+    </div>
+</section>
+
+<body class="body">
+    <header class="header">
+        <div class="header-container container">
+            <img class="header-container__logo" src="./assets/images/pngwing.png" alt="logo">
+            <ul class="header-container__menu">
+                <li class="header-container__menu-item"><a href="#" class="header__link">ГЛАВНАЯ</a></li>
+                <li class="header-container__menu-item"><a href="#" class="header__link">НАШИ УСЛУГИ</a></li>
+                <li class="header-container__menu-item"><a href="#" class="header__link">ТАРИФЫ</a></li>
+                <li class="header-container__menu-item"><a href="#" class="header__link">ОФОРМИТЬ ЗАКАЗ</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+<script src="./assets/scripts/hackathon.js"></script>
+
+
+
     <article class="advertising">
         <div class="advertising__left">
         <p class="advertising__header">Что делать с новогодней елкой после праздников?</p>
@@ -84,7 +169,8 @@
                     <summary>Мастер-класс по изготовлению ёлочных игрушек из натуральных материалов от 3000р.
                     </summary>
                 </details>
-                <details>Старые семейные драгоценности не должны пылиться в шкафу! Поможем вернуть им жизнь и красоту.
+                <details>Старые семейные драгоценности не должны пылиться в шкафу! Поможем вернуть им жизнь и
+                    красоту.
                     </summary>
                     <summary>Реставрация ёлочных игрушек и гирлянд от 1000р.
                 </details>
@@ -131,10 +217,10 @@
                 <p>Требуется доставка?</p>
                 <input type="checkbox" value="delivery" class="checkbox">
 
-    
 
                 <br>
-                <p>Вы хотите, чтобы ваше дерево доставили в горшке <br> (для большего срока службы и возможности <br> в
+                <p>Вы хотите, чтобы ваше дерево доставили в горшке <br> (для большего срока службы и возможности
+                    <br> в
                     будущем пересадить его на участок)?
                 </p>
                 <input type="checkbox" value="tree_pot" class="checkbox">
@@ -178,7 +264,53 @@
             <div class="result"></div>
         </div>
     </form>
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-container container">
+            <img class="footer-container__logo" src="./assets/images/pngwing.png" alt="logo">
+
+            <div class="footer-container__contacts">Наши контакты
+                <div>
+
+                    <a class="footer-container__contacts-item" href="tel:+74957873422">+74957873422</a>
+
+
+                    <a class="footer-container__contacts-item" href="mailto:admin@hipolink.net">
+                        admin@hipolink.net</a>
+
+                </div>
+                <div>
+
+                    <a href="#" class="footer-container__contacts-item"><img class="footer-container__social-logo"
+                            src="./assets/images/instagram_logo.svg">
+                    </a>
+
+
+                    <a href="#" class="footer-container__contacts-item"><img class="footer-container__social-logo"
+                            src="./assets/images/telegram_logo.svg"></a>
+
+                </div>
+
+            </div>
+            <ul class="footer-container__menu">
+                <li class="footer-container__menu-item"><a href="#" class="header__link">Главная</a></li>
+                <li class="footer-container__menu-item"><a href="#" class="header__link">Наши услуги</a></li>
+                <li class="footer-container__menu-item"><a href="#" class="header__link">Тарифы</a></li>
+                <li class="footer-container__menu-item"><a href="#" class="header__link">Оформить заказ</a></li>
+            </ul>
+        </div>
+        <hr class="footer__line">
+    </footer>
+
+    <link rel="stylesheet" href="assets/styles/index.css">
     <script src="./assets/scripts/hackathon.js"></script>
+
 </body>
+
 
 </html>
