@@ -111,11 +111,19 @@
   height: 57px;
   width: 157px;
   border: 1px solid #5e7151;
+  background-color: #5e7151;
+  color: #fff;
 }
 
 .sectionServices__description-button:hover {
   background-color: #5e7151;
   font-weight: bolder;
+}
+
+
+.sectionServices__description-button a {
+  text-decoration: none;
+  color: #fff;
 }
 
 @media (width:375px) {
