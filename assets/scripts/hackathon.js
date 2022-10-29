@@ -1,11 +1,11 @@
-let form = document.getElementById('sectionServices__form');
+let consultationForm = document.getElementById('sectionServices__form');
 
 function openForm() {
-    form.style.display = 'block';
+    consultationForm.style.display = 'block';
 }
 
 function closeForm() {
-    form.style.display = 'none';
+    consultationForm.style.display = 'none';
 }
 
 
