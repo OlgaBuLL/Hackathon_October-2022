@@ -1,3 +1,16 @@
+
+let consultationForm = document.getElementById('sectionServices__form');
+
+function openForm() {
+    consultationForm.style.display = 'block';
+}
+
+function closeForm() {
+    consultationForm.style.display = 'none';
+}
+
+
+=======
 const form = document.querySelector("form");
 const result = document.querySelector(".result");
 
@@ -104,3 +117,4 @@ form.addEventListener("submit", function (evt) {
 
     result.innerHTML = `Итого ${sum} рублей`;
 })
+
