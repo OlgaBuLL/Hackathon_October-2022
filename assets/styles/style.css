@@ -5,3 +5,116 @@
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.sectionPrices {
+  height: 885px;
+  width: 1440px;
+  display: flex;
+  margin-top: 100px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+#sectionPrices__form {
+  display: none;
+  position: fixed;
+  margin: auto;
+  width: 700px;
+  height: 300px;
+  border-radius: 10px;
+  padding-left: 15px;
+  background-color: #839d5c;
+  color: #6b0718;
+  font-size: 20px;
+}
+
+.sectionPrices__form-input {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: 0;
+  margin-left: 5px;
+  text-indent: 10px;
+}
+
+.sectionPrices__form-checkboxes {
+  margin-top: 20px;
+}
+
+.sectionPrices__form-button {
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius: 10px;
+  border: none;
+  color: #6b0718;
+  font-size: 18px;
+}
+
+.sectionPrices__form-button:hover {
+  background-color: #5e7151;
+
+}
+
+.sectionPrices-card {
+  margin-left: 30px;
+  height: 550px;
+}
+
+.sectionPrices-imageRecycleSpruce {
+  height: 288px;
+  width: 380px;
+  background-image: url('./../images/recyclespruce.jpg');
+  background-size: cover;
+}
+
+.sectionPrices-imageSaveSpruce {
+  height: 288px;
+  width: 380px;
+  background-image: url('./../images/savespruce.jpg');
+  background-size: cover;
+
+}
+
+.sectionPrices-imageRecyclePlastic {
+  height: 288px;
+  width: 380px;
+  background-image: url('./../images/recycleplastic.jpg');
+  background-size: cover;
+}
+
+.sectionPrices-description {
+  margin-left: 0px;
+  margin-top: 16px;
+}
+
+.sectionPrices__description-title {
+  width: 380px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.sectionPrices__description-about {
+  width: 370px;
+  height: 92px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+.sectionPrices__description-button {
+  margin-top: 15px;
+  height: 57px;
+  width: 157px;
+  border: 1px solid #5e7151;
+}
+
+.sectionPrices__description-button:hover {
+  background-color: #5e7151;
+  font-weight: bolder;
+}
