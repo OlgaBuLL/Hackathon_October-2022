@@ -8,24 +8,24 @@
     flex-wrap: wrap
     align-items: center
     &__line 
-        margin-bottom: 20px
+        margin-bottom: 50px
         width: 100vw
         border: 1px solid #5E7151
    
 .footer-container
     width: 1170px
     margin: 0 auto
-    // border: 1px solid yellow
     display: flex
     justify-content: space-between
     align-items: center
     &__logo
         max-width: 10%
-
+    &__menu
+        text-align: center
     &__contacts
-        color: #374230
-        margin-left: 100px
-        font-weight: bold
+        color: black
+        // margin-left: 100px
+        // font-weight: bold
         display: flex
         flex-direction: column 
         row-gap: 30px
@@ -34,8 +34,7 @@
     &__contacts-item
         text-decoration: none
         margin-right: 50px
-        
-        color: #374230
+        color: black
         &:last-child
             margin-right: 0px
     &__social-logo
@@ -50,37 +49,38 @@
 
     &__menu-item a
         text-decoration: none
-        color: #374230
+        color: black
    
 
-@media screen and (min-width: 375px)
-    .footer
-        height: 200px
-        &__line 
-            margin-bottom: 10px
-    .footer-container
-        display: flex
-        justify-content: space-between
-        align-items: center
-        &__logo
-            max-width: 10%
-        &__contacts
-            color: #374230
-            margin-left: 0px
-            row-gap: 20px
-            width: 300px
-        &__contacts-item
-            text-decoration: none
-            margin-right: 50px
-            color: #374230
-            &:last-child
-                margin-right: 0px
 
-        &__menu-item
-            margin-bottom: 10px
-            &:last-child
-                margin-bottom: 0px
+// @media screen and (min-width: 375px)
+//     .footer
+//         height: 200px
+//         &__line 
+//             margin-bottom: 10px
+//     .footer-container
+//         display: flex
+//         justify-content: space-between
+//         align-items: center
+//         &__logo
+//             max-width: 10%
+//         &__contacts
 
-        &__menu-item a
-            text-decoration: none
-            color: #374230
+//             margin-left: 0px
+//             row-gap: 20px
+//             width: 300px
+//         &__contacts-item
+//             text-decoration: none
+//             margin-right: 50px
+
+//             &:last-child
+//                 margin-right: 0px
+
+//         &__menu-item
+//             margin-bottom: 10px
+//             &:last-child
+//                 margin-bottom: 0px
+
+//         &__menu-item a
+//             text-decoration: none
+//             // color: #374230
