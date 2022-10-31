@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Kurale";
+  src: url(/assets/fonts/Kurale.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HangingLetters";
+  src: url(/assets/fonts/HangingLetters.otf);
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Matterhorn";
+  src: url(/assets/fonts//Matterhorn.otf);
+  font-weight: 900;
+  font-style: normal;
+}
+/*# sourceMappingURL=font.css.map */

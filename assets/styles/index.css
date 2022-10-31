@@ -1,0 +1,87 @@
+.prices__heading {
+  text-align: center;
+}
+
+.prices__live {
+  width: 70%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .prices__live {
+    width: 100%;
+    display: block;
+  }
+}
+
+.prices__live_img {
+  padding: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .prices__live_img {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.prices__live_services {
+  font-size: large;
+  padding: 1em;
+}
+
+.prices__live_services details {
+  padding: 7px;
+}
+
+.prices__button {
+  background-color: #5E7151;
+  color: white;
+  padding: 20px;
+  border: inherit;
+}
+
+.prices__plastic {
+  width: 70%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .prices__plastic {
+    width: 100%;
+    display: block;
+  }
+}
+
+.prices__plastic_services {
+  font-size: large;
+  padding: 1em;
+}
+
+.prices__plastic_services details {
+  padding: 7px;
+}
+
+.prices__plastic_img {
+  padding: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .prices__plastic_img {
+    width: 100%;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=index.css.map */
