@@ -4,22 +4,22 @@
     background-color: #ebf3f5;
     width: 80vw;
     font-family: Kurale, sans-serif;
-}
 
-.form_column1,
-.form_column2 {
-    max-width: 600px;
-    min-width: 400px;
-    margin: 10px;
-}
+    &_column1,
+    &_column2 {
+        max-width: 600px;
+        min-width: 400px;
+        margin: 10px;
+    }
 
-.form_title {
-    font-family: Kurale, sans-serif;
-    text-align: center;
-}
+    &_title {
+        font-family: Kurale, sans-serif;
+        text-align: center;
+    }
 
-.form_subtitle {
-    font-family: Kurale, sans-serif;
+    &_subtitle {
+        font-family: Kurale, sans-serif;
+    }
 }
 
 .block_result {

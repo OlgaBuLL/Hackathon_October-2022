@@ -23,11 +23,11 @@
     justify-content: space-between;
     align-items: center;
 
-    .header-container__logo {
+    &__logo {
         max-width: 5%;
     }
 
-    .header-container__menu-item {
+    &__menu-item {
         display: inline-block;
         margin-right: 60px;
     }
@@ -36,7 +36,7 @@
         margin-right: 0px;
     }
 
-    .header-container__menu-item a {
+    &__menu-item a {
         text-decoration: none;
         color: black;
 
@@ -47,7 +47,7 @@
     }
 }
 
-// HEADER
+// ------------------------------------------
 
 //FOOTER
 
@@ -59,7 +59,7 @@
     flex-wrap: wrap;
     align-items: center;
 
-    .footer__line {
+    &__line {
         margin-bottom: 50px;
         width: 100vw;
         border: 1px solid #5E7151;
@@ -73,11 +73,11 @@
     justify-content: space-between;
     align-items: center;
 
-    .footer-container__logo {
+    &__logo {
         max-width: 10%;
     }
 
-    .footer-container__contacts {
+    &__contacts {
         color: black;
         display: flex;
         flex-direction: column;
@@ -86,21 +86,21 @@
         width: 500px;
     }
 
-    .footer-container__contacts-item {
+    &__contacts-item {
         text-decoration: none;
         margin-right: 50px;
         color: black;
     }
 
-    .footer-container__contacts-item:last-child {
+    &__contacts-item:last-child {
         margin-right: 0px;
     }
 
-    .footer-container__social-logo {
+    &__social-logo {
         width: 40px;
     }
 
-    .footer-container__menu-item {
+    &__menu-item {
         align-self: flex-end;
         list-style: none;
         margin-bottom: 20px;
@@ -110,7 +110,7 @@
         }
     }
 
-    .footer-container__menu-item a {
+    &__menu-item a {
         text-decoration: none;
         color: black;
     }

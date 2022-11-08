@@ -33,11 +33,11 @@
           align-items: center;
 }
 
-.header-container .header-container__logo {
+.header-container__logo {
   max-width: 5%;
 }
 
-.header-container .header-container__menu-item {
+.header-container__menu-item {
   display: inline-block;
   margin-right: 60px;
 }
@@ -46,12 +46,12 @@
   margin-right: 0px;
 }
 
-.header-container .header-container__menu-item a {
+.header-container__menu-item a {
   text-decoration: none;
   color: black;
 }
 
-.header-container .header-container__menu-item a:hover {
+.header-container__menu-item a:hover {
   color: #5e7151;
   border-bottom: 2px solid #5e7151;
 }
@@ -71,7 +71,7 @@
           align-items: center;
 }
 
-.footer .footer__line {
+.footer__line {
   margin-bottom: 50px;
   width: 100vw;
   border: 1px solid #5E7151;
@@ -91,11 +91,11 @@
           align-items: center;
 }
 
-.footer-container .footer-container__logo {
+.footer-container__logo {
   max-width: 10%;
 }
 
-.footer-container .footer-container__contacts {
+.footer-container__contacts {
   color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,33 +109,33 @@
   width: 500px;
 }
 
-.footer-container .footer-container__contacts-item {
+.footer-container__contacts-item {
   text-decoration: none;
   margin-right: 50px;
   color: black;
 }
 
-.footer-container .footer-container__contacts-item:last-child {
+.footer-container__contacts-item:last-child {
   margin-right: 0px;
 }
 
-.footer-container .footer-container__social-logo {
+.footer-container__social-logo {
   width: 40px;
 }
 
-.footer-container .footer-container__menu-item {
+.footer-container__menu-item {
   -ms-flex-item-align: end;
       align-self: flex-end;
   list-style: none;
   margin-bottom: 20px;
 }
 
-.footer-container .footer-container__menu-item:last-child {
+.footer-container__menu-item:last-child {
   margin-bottom: 0px;
 }
 
-.footer-container .footer-container__menu-item a {
+.footer-container__menu-item a {
   text-decoration: none;
   color: black;
 }
-/*# sourceMappingURL=header.css.map */
+/*# sourceMappingURL=headerAndFooter.css.map */

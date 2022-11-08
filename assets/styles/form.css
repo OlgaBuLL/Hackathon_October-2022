@@ -8,8 +8,7 @@
   font-family: Kurale, sans-serif;
 }
 
-.form_column1,
-.form_column2 {
+.form_column1, .form_column2 {
   max-width: 600px;
   min-width: 400px;
   margin: 10px;
